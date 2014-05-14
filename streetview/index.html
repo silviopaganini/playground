@@ -45,6 +45,7 @@ var Filters = function() {
   this['blur'] = 0
   this['brightness'] = 0
   this['contrast'] = 0
+  this['invert'] = 0
   this['saturate'] = 0
   this['hue-rotate'] = 0
 };
@@ -75,6 +76,7 @@ window.onload = function() {
 
   gui.add(filters, 'grayscale', 0, 1).onChange(onChange);
   gui.add(filters, 'sepia', 0, 1).onChange(onChange);
+  gui.add(filters, 'invert', 0, 1).onChange(onChange);
   gui.add(filters, 'blur', 0, 10).onChange(onChange);
   gui.add(filters, 'brightness', 0, 10).onChange(onChange);
   gui.add(filters, 'contrast', 0, 10).onChange(onChange);
