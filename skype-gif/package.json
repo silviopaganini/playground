@@ -1,28 +1,28 @@
 {
-  "name": "skype-gif",
-  "version": "0.0.1",
-  "description": "skype-hack-a-day",
-  "main": "main.js",
-  "author": "silvio paganini <s2paganini@gmail.com> @silviopaganini",
-  "license": "BSD",
-  "scripts": {
-    "start": "node main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "dependencies": {
-    "sqlite3": "~2.2.4",
-    "coffee-script": "~1.7.1"
-  },
-  "devDependencies": {
-    "sleep": "~1.1.8",
-    "nodemailer": "~1.1.1",
-    "chalk": "~0.5.1",
-    "change-case": "~2.1.1"
-  },
-  "engines": {
-    "node": ">=0.8"
-  }
+    "name": "skype-gif",
+    "version": "0.0.1",
+    "description": "skype-hack-a-day",
+    "main": "main.js",
+    "author": "silvio paganini <s2paganini@gmail.com> @silviopaganini",
+    "license": "BSD",
+    "scripts": {
+        "start": "coffee main.coffee -n"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/silviopaganini/playground.git"
+    },
+    "dependencies": {
+        "sqlite3": "~2.2.4",
+        "coffee-script": "~1.7.1"
+    },
+    "devDependencies": {
+        "sleep": "~1.1.8",
+        "nodemailer": "~1.1.1",
+        "chalk": "~0.5.1",
+        "change-case": "~2.1.1"
+    },
+    "engines": {
+        "node": ">=0.8"
+    }
 }
