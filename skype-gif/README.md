@@ -30,6 +30,15 @@ $ npm install
 $ npm start
 ```
 
+to run using [forever](https://www.npmjs.org/package/forever) 
+
+```
+$ [sudo] npm install forever -g
+$ forever start -c coffee main.coffee
+$ forever list 
+```
+
 more info about email services [http://www.nodemailer.com/](http://www.nodemailer.com/)
 
 currently live [http://u9-gifchat.tumblr.com/](http://u9-gifchat.tumblr.com/)
+
